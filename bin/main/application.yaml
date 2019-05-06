@@ -1,0 +1,10 @@
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    datasource:
+        url: jdbc:mysql://localhost:3306/test_dpkr?serverTimezone=Asia/Seoul
+        username: gtlee
+        password: mid@sit
+        driver-class-name: com.mysql.cj.jdbc.Driver
